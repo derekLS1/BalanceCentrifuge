@@ -1,8 +1,9 @@
 #READ THIS FIRST!
 #You can run this by downloading R (https://www.r-project.org/).
 #Copy everything you see here (lines 1 through 170) to a text editor. 
-#Edit the variables immediately below (lines 13-19), but do not change the rest. 
-#Select all the text in the file (lines 1-170). Can use the shortcut ctrl+A or command+A, 
+#You mut edit the path to save the file (line 14).
+#You may edit the optional variables below (lines 15-20), but do not change the rest. 
+#Select all the text in the file (lines 1-172). Can use the shortcut ctrl+A or command+A, 
 #Paste it all into R were you see the ">" sign.
 #It will write a PNG file to your computer in the location you specify
 #as seen As seen in: https://twitter.com/DerekSeveri/status/1087741624854241280
