@@ -6,7 +6,7 @@
 #Select all the text in the file (lines 1-172). Can use the shortcut ctrl+A or command+A, 
 #Paste it all into R were you see the ">" sign.
 #It will write a PNG file to your computer in the location you specify in line 14.
-#as seen As seen in: https://twitter.com/DerekSeveri/status/1087741624854241280
+#As seen in: https://twitter.com/DerekSeveri/status/1087741624854241280
 
 #Assumes centrifuges with an even number of slots (6, 12, 20, 24, or 30 slots)
 
