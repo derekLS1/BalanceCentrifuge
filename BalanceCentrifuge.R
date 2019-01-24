@@ -1,7 +1,7 @@
 #READ THIS FIRST!
 #You can run this by downloading R (https://www.r-project.org/).
 #Copy everything you see here (lines 1 through 170) to a text editor. 
-#You mut edit the file path to save the picture to your machine (line 14).
+#You must edit the file path to save the picture to your machine (line 14).
 #You may edit the optional variables below (lines 15-20), but do not change the rest. 
 #Select all the text in the file (lines 1-172). Can use the shortcut ctrl+A or command+A, 
 #Paste it all into R were you see the ">" sign.
