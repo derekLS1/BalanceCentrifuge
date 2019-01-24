@@ -1,4 +1,6 @@
-#Run this by editing the variables below, selecting everything (ctrl+A or command+A), and pasting it into R. 
+#You can run this by downloading R (https://www.r-project.org/), 
+#editing the variables immediately below, selecting everything you see in this entire window (ctrl+A or command+A), 
+#and pasting it all into R were you see the ">" sign.
 
 #Edit the path to save the file
 local_path_to_save_file="/Users/dlundberg/Documents/centrifuge_diagram.png"  
@@ -11,6 +13,14 @@ columns_in_picture=6    #default = 6
 slot_circle_size=15    #default = 15
 text_size=20 		 #default = 20
 size_slot_outline=5    #default = 5
+
+
+#Ignore everything below this sentence
+
+
+
+
+
 
 
 
