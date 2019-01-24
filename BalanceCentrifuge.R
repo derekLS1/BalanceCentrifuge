@@ -1,5 +1,7 @@
+#Run this by editing the variables below, selecting everything (ctrl+A or command+A), and pasting it into R. 
+
 #Edit the path to save the file
-local_path_to_save_file="/Users/dlundberg/Documents/centrifuge_diagram.png"
+local_path_to_save_file="/Users/dlundberg/Documents/centrifuge_diagram.png"  
 
 #These are useful paramters you may want to change
 slots_in_centrifuge=30  #default = 30, assumes standard centrifuges and even number of slots (6, 12, 20, 24, or 30 slots)
