@@ -15,7 +15,7 @@ text_size=20 		 #default = 20
 size_slot_outline=5    #default = 5
 
 
-#Ignore everything below this sentence
+#Do not edit anything below this sentence.
 
 
 
