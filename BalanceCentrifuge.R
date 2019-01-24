@@ -3,22 +3,19 @@
 #Edit the path to save the file
 local_path_to_save_file="/Users/dlundberg/Documents/centrifuge_diagram.png"  
 
-#These are useful paramters you may want to change
+#These are useful paramters you may want to change.
+#Assumes centrifuges with an even number of slots (6, 12, 20, 24, or 30 slots)
 slots_in_centrifuge=30  #default = 30, assumes standard centrifuges and even number of slots (6, 12, 20, 24, or 30 slots)
-rows_in_picture=5       #default = 5
+rows_in_picture=5       #default = 5,   make sure rows*columns >= slots in centrifuge. Otherwise error.
 columns_in_picture=6    #default = 6
 slot_circle_size=15    #default = 15
-text_size=20 		       #default = 20
+text_size=20 		 #default = 20
 size_slot_outline=5    #default = 5
 
 
 
 
-
-#The following you should not need to change.
 #############################################################
-		
-#png(local_path_to_save_file, width = 3200, height = 3200, units = "px", res = 50)
 png(local_path_to_save_file, height = rows_in_picture*1200, width = columns_in_picture*1200, units = "px", res = 100)
 
 par(mfrow=c(rows_in_picture,columns_in_picture))
@@ -143,11 +140,20 @@ plot(0, 0, pch="n", xlim=c(-1.2, 1.2), ylim=c(-1.2, 1.2), xaxt="n", yaxt="n", xl
 		points(x = 0 + 1 * cos(a), y = 0 + 1 * sin(a), pch=16, cex=slot_circle_size, col="blue")
 	}
 text(0, 0, slots_in_centrifuge, cex=text_size)
+title("Derek S Lundberg, Twitter @DerekSeveri", cex.main=4)
 
 if(rows_in_picture*columns_in_picture<slots_in_centrifuge){
 	print("ERROR: not enough rows and columns to show every possibility")
+	par(mfrow=c(1,1))
+	plot(0, 0, pch="n", xlim=c(-1.2, 1.2), ylim=c(-1.2, 1.2), xaxt="n", yaxt="n", xlab="", ylab="", type="n")
+	text(0, 0, "ERROR: not enough rows and columns to show every possibility", cex=4)
+}
+if(slots_in_centrifuge%%2>0){
+	print("ERROR: odd number of slots in centrifuge")
+	par(mfrow=c(1,1))
+	plot(0, 0, pch="n", xlim=c(-1.2, 1.2), ylim=c(-1.2, 1.2), xaxt="n", yaxt="n", xlab="", ylab="", type="n")
+	text(0, 0, "ERROR: odd number of slots in centrifuge", cex=4)
 }
 
 dev.off()
-
 
