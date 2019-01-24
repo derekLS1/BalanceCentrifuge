@@ -1,9 +1,9 @@
 #READ THIS FIRST!
 #You can run this by downloading R (https://www.r-project.org/).
-#Copy everything you see here to a text editor. 
-#Edit the variables immediately below, but do not change the rest. 
-#Select all the text in the file (ctrl+A or command+A), 
-#and paste it all into R were you see the ">" sign.
+#Copy everything you see here (lines 1 through 170) to a text editor. 
+#Edit the variables immediately below (lines 13-19), but do not change the rest. 
+#Select all the text in the file (lines 1-170). Can use the shortcut ctrl+A or command+A, 
+#Paste it all into R were you see the ">" sign.
 #It will write a PNG file to your computer in the location you specify
 #as seen As seen in: https://twitter.com/DerekSeveri/status/1087741624854241280
 
@@ -168,4 +168,3 @@ if(slots_in_centrifuge%%2>0){
 }
 
 dev.off()
-
