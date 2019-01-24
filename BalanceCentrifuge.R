@@ -1,12 +1,15 @@
-#You can run this by downloading R (https://www.r-project.org/), 
-#editing the variables immediately below, selecting everything you see in this entire window (ctrl+A or command+A), 
-#and pasting it all into R were you see the ">" sign.
+#READ THIS FIRST!
+#You can run this by downloading R (https://www.r-project.org/).
+#Copy everything you see here to a text editor. 
+#Edit the variables immediately below, but do not change the rest. 
+#Select all the text in the file (ctrl+A or command+A), 
+#and paste it all into R were you see the ">" sign.
+#It will write a PNG file to your computer in the location you specify
 
-#Edit the path to save the file
-local_path_to_save_file="/Users/dlundberg/Documents/centrifuge_diagram.png"  
-
-#These are useful paramters you may want to change.
 #Assumes centrifuges with an even number of slots (6, 12, 20, 24, or 30 slots)
+
+#EDIT BELOW: These are useful paramters you may want/need to change.
+local_path_to_save_file="/Users/dlundberg/Documents/centrifuge_diagram.png"   #Edit the path to save the file and the file name
 slots_in_centrifuge=30  #default = 30, assumes standard centrifuges and even number of slots (6, 12, 20, 24, or 30 slots)
 rows_in_picture=5       #default = 5,   make sure rows*columns >= slots in centrifuge. Otherwise error.
 columns_in_picture=6    #default = 6
@@ -16,8 +19,6 @@ size_slot_outline=5    #default = 5
 
 
 #Do not edit anything below this sentence.
-
-
 
 
 
