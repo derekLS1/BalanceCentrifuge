@@ -1,5 +1,5 @@
 # BalanceCentrifuge
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gedankenstuecke/BalanceCentrifuge/master?filepath=balance_centrifuge.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/derekLS1/BalanceCentrifuge/master?filepath=balance_centrifuge.ipynb)
 
 R script to generate high resolution image of ways to balance a centrifuge
 
